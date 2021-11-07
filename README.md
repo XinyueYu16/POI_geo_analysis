@@ -24,6 +24,8 @@
           (mitmproxy安装参考了：https://blog.csdn.net/qq_37437983/article/details/104319879)
 
           把以上代码放在.py里，在所在路径运行mitmdump -s flow_editter.py 就可以开始快乐代理啦！
+          
+          (在连续爬了100+以后又会出现数据请求异常，这时候重启一下webdriver就ok)
 
           （留坑）
           
