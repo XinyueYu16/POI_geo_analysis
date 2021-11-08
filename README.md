@@ -25,14 +25,22 @@
 
           把以上代码放在.py里，在所在路径运行mitmdump -s flow_editter.py 就可以开始快乐代理啦！
           
-          (在连续爬了100+以后又会出现数据请求异常，这时候重启一下webdriver就ok)
-
-          （留坑）
+          风险提示：在连续爬了100+以后会出现滑条验证，此时需要在第一次出现滑条的页面进行验证，不然如果无视滑条，继续get新url有很大风险被认为请求异常。
           
-          -- mitmdump原理学习：
+          如果已经被认为异常，解决方法是重启webdriver，并且用新窗口打开任一其他网站，再回到dzdp进行滑条验证。不过不太清楚解决的原理是什么，难道是查看referer？
           
-          -- 爬虫代码：
 
+          
+    - mitmdump原理学习：
+
+    - 爬虫代码：
+
+    - 参考资料：
+        - [爬虫相关定义、反爬机制及其破解](https://blog.csdn.net/hhr603894090/article/details/119642260?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163628411916780366575185%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163628411916780366575185&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-119642260.first_rank_v2_pc_rank_v29&utm_term=selenium+%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84&spm=1018.2226.3001.4187)
+        - [selenium反爬机制](https://www.cnblogs.com/lingcai/p/10616311.html)
+        - [爬虫成长之路](https://www.jianshu.com/p/8326186c0273)
+        - [dzdp爬与反爬及数据分析](https://zhuanlan.zhihu.com/p/135319431) - 为后续数据分析做准备
+        - [scrapy爬取大众点评](https://blog.csdn.net/qq_38875300/article/details/88769333) - scrapy没学过，有空可以看下
 
 
 - 数据处理：核密度？
