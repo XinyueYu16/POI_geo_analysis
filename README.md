@@ -33,7 +33,7 @@
           
     - mitmdump原理学习：
 
-    - 爬虫代码：
+    - 爬虫代码：https://github.com/XinyueYu16/POI_geo_analysis/blob/main/src/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%E8%AF%84%E8%AE%BA%E5%BE%97%E5%88%86%E7%88%AC%E8%99%AB.ipynb
 
     - 参考资料：
         - [爬虫相关定义、反爬机制及其破解](https://blog.csdn.net/hhr603894090/article/details/119642260?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163628411916780366575185%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163628411916780366575185&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-119642260.first_rank_v2_pc_rank_v29&utm_term=selenium+%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84&spm=1018.2226.3001.4187)
